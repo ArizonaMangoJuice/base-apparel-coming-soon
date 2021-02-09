@@ -136,3 +136,24 @@ header{
 .error-outline{
     border: 2px solid var(--soft-red);
 }
+
+.ex-error-container{
+    height: 59px;
+    width: 59px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex-error{
+    background: var(--soft-red);
+    color: white;
+    padding: 10px;
+    height: 39px;
+    width: 39px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+}
+
