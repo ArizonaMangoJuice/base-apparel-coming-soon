@@ -197,6 +197,18 @@ header{
         margin: auto;
     }
 
+    .email-container{
+        width: 80%;
+        margin: 25px auto 0 auto;
+    }
+
+    .error{
+        width: 80%;
+        text-align: center;
+        margin: 15px auto;
+        padding-bottom: 45px;
+    }
+
     .right-container{
         display: none;
     }
