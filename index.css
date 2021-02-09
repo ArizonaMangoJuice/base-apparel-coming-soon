@@ -157,3 +157,62 @@ header{
     border-radius: 50%;
 }
 
+@media only screen and (max-width: 375px){
+    .main-container{
+        flex-direction: column;
+    }
+
+    header{
+        margin-top: 0;
+        width: 100%;
+        padding: 35px;
+        position: fixed;
+        top: 0;
+        background: white;
+    }
+
+    .left-container {
+        width: 100%;
+        padding-left: 0;
+        height: 50vh;
+    }
+    
+    .left-group{
+        margin: 0;
+        width: 100%;
+    }
+
+    .title{
+        margin: auto;
+        text-align: center;
+        padding-top: 51px;
+        font-size: 10.9vw;
+    }
+    
+    .description{
+        text-align: center;
+        width: 80%;
+        font-size: 3.8vw;
+        padding-top: 20px;
+        margin: auto;
+    }
+
+    .right-container{
+        display: none;
+    }
+
+    .right-side-img{
+        display: none;
+    }
+
+    .mobile-image{
+        display: block;
+    }
+
+    .mobile-image img{
+        margin-top: 105px;
+        height: 38vh;
+        width: 100%;
+        object-fit: cover;
+    }
+}
