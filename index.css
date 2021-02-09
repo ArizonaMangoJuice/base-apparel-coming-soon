@@ -105,6 +105,10 @@ header{
     background: linear-gradient(90deg, rgba(227,182,182,1) 57%, rgba(215,151,151,1) 100%);
 }
 
+.email-button:hover{
+    background: var(--desaturated-red);
+}
+
 .right-container{
     width: 40%;
     height: 100%;
@@ -119,3 +123,12 @@ header{
     background-position: 50% 50%;
 }
 
+.error{
+    color: var(--light-red);
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+.hidden{
+    display: none;
+}
