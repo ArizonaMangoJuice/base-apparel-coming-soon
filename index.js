@@ -6,9 +6,17 @@ document
     .getElementsByClassName("email")[0]
     .addEventListener('keydown', (event) => {
         let value = event.target.value;
-        let email = document.getElementsByClassName("error")[0];
-        if(!isEmail.test(value)) email.classList.remove("hidden");
-        if(isEmail.test(value)) email.classList.add("hidden");
+        let error = document.getElementsByClassName("error")[0];
+        let email = document.getElementsByClassName("email-container")[0];
 
+        if(!isEmail.test(value)) {
+            error.classList.remove("hidden");
+            email.classList.add("error-outline");
+        }
+
+        if(isEmail.test(value)) {
+            error.classList.add("hidden");
+            email.classList.remove("error-outline");
+        }
 });
 

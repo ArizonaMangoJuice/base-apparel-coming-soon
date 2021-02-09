@@ -132,3 +132,7 @@ header{
 .hidden{
     display: none;
 }
+
+.error-outline{
+    border: 2px solid var(--soft-red);
+}
